@@ -18,4 +18,5 @@ for n in magic_square:
         ary[i + n] += ary[i]
 
 # 합계가 최대인 것을 출력
+
 print(ary.index(max(ary)))
